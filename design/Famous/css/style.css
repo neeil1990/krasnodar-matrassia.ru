@@ -2,13 +2,13 @@
 
   File Name: style.css
   Template Name: Famous
-  Created By: justthemevalley 
- 
+  Created By: justthemevalley
+
  [Table of contents]
-   
+
   1. Common styles
   2. Newsletter Popup
-  3. Layout 
+  3. Layout
      3.1. col1 layout
      3.2. col2 layout
      3.3. col3 layout
@@ -47,7 +47,7 @@
 		22.7 popular tags
 		22.8 Add banner
 		22.9 Special product
-		
+
 	23. category description
 	24. products grid
 	25. products list
@@ -67,7 +67,7 @@
 	39. on sale product
 
 
-################################################################# */ 
+################################################################# */
 
 /*Google Fonts*/
 @import 'https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i';
@@ -8291,3 +8291,18 @@ a.jtv-m-logo-img {
 .slider-range .saide-bar-menu ul > li > ul{
 	display: none;
 }
+
+.filter-mobile-wrapper,
+.filter-mobile-wrapper .filter-mobile-content {
+	display: none;
+}
+.filter-mobile-wrapper .filter-mobile-button {
+	display: block;
+	text-align: center;
+	font-size: medium;
+	color: #1577C7;
+	border-color: #1577C7;
+	margin-bottom: 25px;
+}
+
+

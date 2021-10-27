@@ -65,7 +65,7 @@ jQuery(document).ready(function() {
             pagination: !1,
             autoPlay: false
         }),
-		
+
         /******************************************
           smartphone slider
         ******************************************/
@@ -117,7 +117,7 @@ jQuery(document).ready(function() {
             pagination: !1,
             autoPlay: true
         }),
-		
+
 		/******************************************
         	Photo slider
         ******************************************/
@@ -487,7 +487,7 @@ jQuery(document).ready(function() {
     }
 
     jQuery('select[name=variant]').each(function(li,el){
-		
+
         var price = $(el).find('option:selected').attr('price');
         var compare_price = '';
         if(typeof $(el).find('option:selected').attr('compare_price') == 'string')
@@ -497,7 +497,7 @@ jQuery(document).ready(function() {
 
         jQuery(el).closest('.prod').find('.special-price span.price').html(price + " руб");
         jQuery(el).closest('.prod').find('.old-price span.price').html(compare_price + " руб");
-        
+
     });
 
 
@@ -622,7 +622,7 @@ jQuery(document).ready(function() {
             } catch(e) {
                 console.log("Ошибка метрики" + e);
             }
-            
+
             jQuery.getJSON("/callme/index.php",
                 $.extend(getFormData($(this)), {url: location.href})
                 , function(i) {
@@ -658,6 +658,33 @@ jQuery(document).ready(function() {
             }
         }
     });
+
+    if($(window).width() <= 765){
+
+        var sidebar = $('.sidebar');
+
+        if(sidebar.length){
+
+            $('.filter-mobile-wrapper').css('display', 'block');
+
+            var filter = $('.filter-mobile-wrapper .filter-mobile-content');
+
+            $('.filter-mobile-wrapper .filter-mobile-button').click(function(e){
+                e.preventDefault();
+
+                var button = $(this);
+
+                button.closest('.filter-mobile-wrapper').find('.filter-mobile-content').slideToggle(500, function(){
+                    if(filter.css('display') == 'block'){
+                        button.find('span').text('Закрыть фильтр товаров');
+                    }else{
+                        button.find('span').text('Открыть фильтр товаров');
+                    }
+                });
+            });
+            filter.html(sidebar);
+        }
+    }
 
 });
 

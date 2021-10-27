@@ -46,6 +46,15 @@
 <div class="main-container col2-left-layout">
     <div class="container">
         <div class="row">
+
+            <div class="filter-mobile-wrapper col-xs-12">
+                <a href="#" class="filter-mobile-button but_large5">
+                    <i class="fa fa-filter"></i>&nbsp;
+                    <span>Открыть фильтр товаров</span>
+                </a>
+                <div class="filter-mobile-content"></div>
+            </div>
+
             <div class="col-main col-sm-9 col-xs-12 col-sm-push-3">
                 {if $category->image}
                 <div class="category-description std">
