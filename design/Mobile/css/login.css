@@ -1,0 +1,161 @@
+/* Start*/
+.bx-auth-table td {
+	padding-right:4px;
+}
+
+#authForm {
+	position: relative;
+	max-width: 480px;	
+	clear: both;
+	width: 100%;
+	margin: auto;
+}
+
+#authForm form {
+	width: 100%;
+	clear: both;
+}
+
+#authForm .bx-auth-input {
+	border: 1px solid #ECECEC;
+	background-color: #FFF;
+	padding: 0px 6px;
+	font-size: 16px;
+	width: 100%;
+	display: block;
+	height: 36px;
+	line-height: 36px;
+}
+
+#authForm .bx-auth-input:focus {
+	border-color: #ccc;
+}
+
+#authForm  .bx-auth-table {
+	margin-bottom: 12px;
+	width: 100%;
+}
+
+#authForm  .bx-auth-table  td {
+	padding: 4px 4px;
+}
+
+#authForm input[type="submit"] {
+	background-color: #0074D9;
+	border: 1px solid #0074D9;
+	text-align: center;
+	font-size: 16px;
+	padding: 12px 0px;
+	display: block;
+	color: #FFF;
+	width: 100%;
+	max-width: 360px;
+	float: right;
+	position: relative;
+}
+
+#authForm input[type="submit"]:active {
+	top: 1px;
+	border-color: #016FCE;
+	background-color: #016FCE;
+}
+
+#USER_REMEMBER + label {
+	font-size: 13px;
+	vertical-align: top;
+	line-height: 16px;
+	display: inline-block;
+	margin-left: 6px;
+}
+
+#authForm .electroCheck {
+	width: 15px;
+	height: 15px;
+	float:left;
+}
+
+#forgot {
+	float: right;
+	margin-bottom: 16px;
+}
+
+#pseudoTabs {
+	position: relative;
+	clear: both;
+}
+
+#pseudoTabs .tabSelector {
+	display: block;
+	float: left;
+	width: 50%;
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 8px 0;
+	margin: 0px 0px 12px;
+	border: 1px solid #ccc;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#pseudoTabs .tabSelector.inactive {
+	background-color: #ededed;
+	border-left: 0;
+	color: #636363;
+}
+
+div.bx-auth {
+	margin: 24px auto 0 !important;
+	max-width: 480px !important;
+	clear: both;
+}
+
+div.bx-auth-services div {
+	width: 33.33333333% !important;
+	margin: 0 !important;
+	padding: 4px 6px 0px 0px;
+	text-align: center;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.bx-auth-line {
+	display: none;
+}
+
+div.bx-auth h2 {
+	text-align: center;
+}
+
+div.bx-auth-note {
+	margin-top: 0;
+}
+
+div.bx-auth-service-form input[type="text"] {
+	border: 1px solid #ECECEC;
+	background-color: #FFF;
+	padding: 0px 6px;
+	font-size: 14px;
+	height: 36px;
+	line-height: 36px;
+}
+
+div.bx-auth-service-form input.button {
+	display: inline-block;
+	background-color: #0074D9;
+	border: 1px solid #0074D9;
+	text-align: center;
+	font-size: 14px;
+	padding: 9px 12px;
+	color: #FFF;
+	position: relative;
+}
+
+@media (max-width: 480px) {
+	div.bx-auth-services div {
+		width: 50% !important;
+	}
+}
+/* End */

@@ -1,0 +1,15 @@
+.footer .menu_in_footer{
+	margin-bottom: 15px;
+}
+.footer .menu_in_footer .menu_in_footer-item{
+	margin: 8px 0;
+}
+.footer .menu_in_footer a{
+	color: #fff;
+	font-weight: bold;
+	text-decoration: none;
+}
+.footer .menu_in_footer a:hover{
+	text-decoration: underline;
+	 color: #fff;
+}

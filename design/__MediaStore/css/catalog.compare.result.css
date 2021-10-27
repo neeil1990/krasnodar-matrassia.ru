@@ -1,0 +1,156 @@
+/* names */
+.catalog_compare_result .personal-tabsheader-tablink{
+	text-align: center;
+}
+.around_names{
+	float: left;
+	width: 260px;
+}
+table.names{
+	width: 100%;
+}
+table.names thead th{
+	height: 301px;
+}
+table.names .other,
+table.names .group,
+table.elements .group{
+	font-size: 12px;
+	font-weight: bold;
+}
+/* element */
+.element .element_info{
+	height: 301px;
+	position: relative;
+	width: 207px;
+}
+.element a.delete_icon{
+	background-position: 0 -394px;
+	display: block;
+	height: 19px;
+	position: absolute;
+	right: -15px;
+	top: -28px;
+	-moz-transition: .5s ease;
+	-webkit-transition: .5s ease;
+	transition: .5s ease;
+	width: 19px;
+	z-index: 35;
+}
+.element a.delete_icon:hover{
+	-ms-transform: scale(1.1, 1.1);
+	-webkit-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+}
+.element .element_info-picture{
+	height: 160px;
+	margin-bottom: 10px;
+	position: relative;
+	text-align: center;
+}
+.element .catalog-item-name{
+	height: 54px;
+    line-height: 18px;
+}
+.element .catalog-item-name a{
+	display: block;
+	font-weight: normal;
+	max-height: 36px;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+}
+.element  .catalog-item-name a:after{
+	width: 7%;
+}
+.element .element_info-price{
+	margin-bottom: 10px;
+}
+.element .element_info-price .price,
+.element .element_info-price ._price{
+	float: right;
+}
+.element .element_info-price .crossed_price{
+	float: left;
+}
+.elements .value.best_property,
+.elements .property_line.hovered .value.best_property{
+	background-color: #FFE460;
+}
+.elements .property_line.hovered .value{
+	background-color: #F1F1F1;
+}
+/* slider */
+.compare_slider.main_slider{
+	float: left;
+	margin: 0;
+}
+.compare_slider.main_slider-slider {
+	margin-left: 46px;
+	width: 954px;
+}
+.compare_slider.main_slider-arrow_prev.multimage_icons.left,
+.compare_slider.main_slider-arrow_next.multimage_icons.right{
+	top: 130px;
+}
+.compare_slider.main_slider-arrow_prev.multimage_icons.left{
+	left: 14px;
+}
+.compare_slider.main_slider-arrow_next.multimage_icons.right{
+	right: -30px;
+}
+body .slider_buttons_for_tablet{
+	display: none;
+}
+body.phone_tablet .slider_buttons_for_tablet{
+	display: block;
+}
+.slider_buttons_for_tablet{
+	margin-left: 46px;
+	margin-top: 20px;
+	text-align: center;
+}
+.slider_buttons_for_tablet .icon{
+	height: 14px;
+	width: 15px;
+}
+.slider_buttons_for_tablet .main_slider-arrow_prev .icon{
+	background-position: 0 -1558px;
+}
+.slider_buttons_for_tablet .main_slider-arrow_prev:hover .icon{
+	background-position: -15px -1558px;
+}
+.slider_buttons_for_tablet .main_slider-arrow_next .icon{
+	background-position: 0 -1541px;
+}
+.slider_buttons_for_tablet .main_slider-arrow_next:hover .icon{
+	background-position: -16px -1541px;
+}
+.slider_buttons_for_tablet .main_slider-arrow_prev.disabled .icon,
+.slider_buttons_for_tablet .main_slider-arrow_prev.disabled:hover .icon{
+	background-position: -30px -1558px;
+}
+.slider_buttons_for_tablet .main_slider-arrow_next.disabled .icon,
+.slider_buttons_for_tablet .main_slider-arrow_next.disabled:hover .icon{
+	background-position: -32px -1541px;
+}
+/* slider -> little */
+.names td,
+.names th,
+.elements td,
+.elements th{
+	border: 1px solid #CECECE;
+	font-size: 13px;
+	padding: 8px 15px
+}
+.names th,
+.elements th{
+	padding-top: 28px;
+}
+.activelife table.elements .in_basket,
+.activelife table.elements .add2basket{
+	font-size: 13px;
+	font-weight: normal;
+    height: 28px;
+    line-height: 28px;
+}

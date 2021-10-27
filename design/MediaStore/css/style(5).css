@@ -1,0 +1,29 @@
+ul.breadcrumb-navigation{
+	list-style: none;
+	margin: 25px 0;
+	padding: 0;
+}
+ul.breadcrumb-navigation li{
+	float: left;
+}
+.breadcrumb-navigation span.ic1{
+	background-position: 0 -1358px;
+	display: block;
+	height: 12px;
+	margin: 3px 6px 0;
+	width: 6px;
+}
+.breadcrumb-navigation span.ic2{
+	background-position: 0 -1372px;
+	display: block;
+	height: 15px;
+	margin: 1px 6px -1px;
+	width: 12px;
+}
+ul.breadcrumb-navigation a{
+	color: #333;
+	text-decoration: none;
+}
+ul.breadcrumb-navigation a.last{
+	color: #086BBC;
+}

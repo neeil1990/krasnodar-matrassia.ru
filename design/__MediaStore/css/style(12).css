@@ -1,0 +1,207 @@
+/* button */
+body #rswm_button{
+	position:fixed;
+	right:50px;
+	bottom:0px;
+	z-index:8000;
+}
+body .rswm_button{
+	padding:8px 12px;
+	background-color:#FFFFFF;
+	border:1px solid #d4d4d4;
+	border-bottom:none;
+	background:-ms-linear-gradient(top, #feffff, #e7ecf2);
+	background-image:-moz-linear-gradient(top, #feffff, #e7ecf2);
+	background-image:-o-linear-gradient(top, #feffff, #e7ecf2);
+	background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#feffff), to(#e7ecf2));
+	background-image:-webkit-linear-gradient(top, #feffff, #e7ecf2);
+	background-image:linear-gradient(to bottom, #feffff, #e7ecf2);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#feffff',endColorstr='#e7ecf2',GradientType=0);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#feffff, endColorstr=#e7ecf2)";
+	-khtml-border-radius:5px 5px 0px 0px;
+	-moz-border-radius:5px 5px 0px 0px;
+	-webkit-border-radius:5px 5px 0px 0px;
+	border-radius:5px 5px 0px 0px;
+}
+body .rswm_button_link{
+	display:block;
+	min-width:110px;
+	height:15px;
+	font:12px Arial, Helvetica, sans-serif;
+	color:black;
+	text-decoration:underline;
+	background:url('/bitrix/images/redsign.wantmagazine/icon.png') 3px 18px no-repeat;
+	-moz-transition:.2s ease;
+	-webkit-transition:.2s ease;
+	transition:.2s ease;
+}
+body .rswm_button_link:hover{
+	height:100px;
+	text-decoration:none;
+}
+
+
+/* slider */
+body #rswm_slider{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:210px;
+	overflow:hidden;
+	-webkit-box-shadow:inset 0 0 10px #161616;
+	-moz-box-shadow:inset 0 0 10px #161616;
+	-o-box-shadow:inset 0 0 10px #161616;
+	box-shadow:inset 0 0 10px #161616;
+	background-color: #404040;
+	z-index:10000;
+}
+body #rswm_slider a{
+	color:#BCBCBC;
+}
+
+/* head */
+body #rswm_slider .rswm_slider-head{
+	height:18px;
+	padding:9px 6px 0px 50px;
+	overflow:hidden;
+}
+body #rswm_slider .rswm_slider-left{
+	margin-right:100px;
+}
+body #rswm_slider .rswm_slider-left a,
+body #rswm_slider .rswm_slider-right a{
+	display:block;
+	float:left;
+	font-size:11px;
+	text-decoration:none;
+	padding:1px 6px 3px 6px;
+	margin-right:15px;
+	-webkit-transition:.2s ease;
+	-moz-transition:.2s ease;
+	-o-transition:.2s ease;
+	transition:.2s ease;
+}
+body #rswm_slider .rswm_slider-left a:hover,
+body #rswm_slider .rswm_slider-right a:hover{
+	color:#FFFFFF;
+}
+body #rswm_slider .rswm_slider-left a.new{
+	margin-right:40px;
+}
+body #rswm_slider .rswm_slider-left a.selected{
+	color:#404040;
+	background-color:#BCBCBC;
+	-moz-border-radius:3px 3px 0 0;
+	-webkit-border-radius:3px 3px 0 0;
+	-khtml-border-radius:3px 3px 0 0;
+	-o-border-radius:3px 3px 0 0;
+	border-radius:3px 3px 0 0;
+}
+body #rswm_slider .rswm_slider-right{
+	float:right;
+}
+body #rswm_slider .rswm_slider-right a.close{
+	margin-right:0px;
+}
+body #rswm_slider .rswm_slider-right a.close span{
+	
+}
+
+/* body */
+body #rswm_slider .rswm_slider-body{
+	position:relative;
+	margin:0px 18px;
+}
+body #rswm_slider .rswm_slider-list{
+	position:relative;
+	width:100%;
+	height:160px;
+	overflow:hidden;
+}
+body #rswm_slider .rswm_slider-arrow_prev,
+body #rswm_slider .rswm_slider-arrow_next{
+	position:absolute;
+	width:18px;
+	height:160px;
+	background-color:#949494;
+}
+body #rswm_slider .rswm_slider-arrow_prev{
+	left:-18px;
+}
+body #rswm_slider .rswm_slider-arrow_next{
+	right:-18px;
+}
+body #rswm_slider .rswm_slider-arrow_prev a,
+body #rswm_slider .rswm_slider-arrow_next a{
+	display:block;
+	width:18px;
+	height:160px;
+}
+body #rswm_slider .rswm_slider-arrow_prev a{
+	background:url('/bitrix/images/redsign.wantmagazine/arrows.gif') 0px 37px no-repeat;
+}
+body #rswm_slider .rswm_slider-arrow_next a{
+	background:url('/bitrix/images/redsign.wantmagazine/arrows.gif') -18px 37px no-repeat;
+}
+body #rswm_slider .rswm_slider-list table{
+	position:relative;
+	left:0px;
+	height:160px;
+	border-top:1px solid #808080;
+	border-bottom:1px solid #808080;
+}
+body #rswm_slider .rswm_slider-list table td{
+	width:160px;
+}
+body #rswm_slider a.rswm_slider-item{
+	display:block;
+	width:160px;
+	height:158px;
+	margin:0 auto;
+	text-decoration:none;
+	background-color:#585858;
+	overflow:hidden;
+	-webkit-transition:.2s ease;
+	-moz-transition:.2s ease;
+	-o-transition:.2s ease;
+	transition:.2s ease;
+}
+body #rswm_slider a.rswm_slider-item:hover{
+	text-decoration:none;
+	background-color:#8A8A8A;
+}
+body #rswm_slider a.rswm_slider-item:hover .rswm_slider-item-name{
+	color:#4C4C4C;
+}
+body #rswm_slider a.rswm_slider-item.selected{
+	background-color:#8A8A8A;
+}
+body #rswm_slider .rswm_slider-item_inner{
+	padding:20px;
+	text-align:center;
+}
+body #rswm_slider .rswm_slider-item-image{
+	width:80px;
+	height:80px;
+	text-align:center;
+	margin:0px 0px 10px 15px;
+	background-color:#FFFFFF;
+	border:4px solid #FFFFFF;
+}
+body #rswm_slider .rswm_slider-item-image img{
+	max-width:80px;
+	max-height:80px;
+}
+body #rswm_slider .rswm_slider-item-name{
+	font-size:11px;
+	text-decoration:none;
+}
+body #rswm_slider .rswm_slider-foot{
+	padding-top:3px;
+	text-align:center;
+}
+body #rswm_slider .rswm_slider-foot a{
+	font-size:11px;
+	text-decoration:none;
+}

@@ -1,0 +1,16 @@
+files/*
+cache/*
+config/*
+.idea/*
+simpla/.htaccess
+simpla/.passwd
+compiled/*
+simpla/design/compiled/*
+simpla/files/backup/*
+access/*
+.htaccess
+error_log
+html/*
+design/Famous/html/tag_head.tpl
+design/Famous/html/tag_body.tpl
+robots.txt

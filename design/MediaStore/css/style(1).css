@@ -1,0 +1,59 @@
+.auth_top_panel{
+	float: right;
+}
+.auth_top_panel-item{
+	float: left;
+	margin-right: 13px;
+	padding: 12px 0 11px 22px;
+	position: relative;
+	text-decoration: none;
+}
+.activelife .auth_top_panel-item > span,
+.activelife .auth_top_panel-item > a{
+	color: #b3b3b3;
+}
+.activelife .auth_top_panel a{
+	text-decoration: none;
+}
+.auth_top_panel-padding_right{
+	margin: 0;
+	min-width: 115px;
+	padding-right: 22px;
+}
+/* icons */
+.auth_top_panel-lichkab{
+	background-position: 0 -20px;
+	height: 17px;
+	padding-right: 3px;
+	width: 16px;
+}
+.auth_top_panel-auth{
+	background-position:0 0;
+	height: 17px;
+	padding-right: 3px;
+	width: 16px;
+}
+/* submenu */
+.auth_top_panel-submenu{
+	background-color: #FFF;
+	left: -1px;
+	position: absolute;
+	right: -1px;
+	top: 0;
+	z-index: 20;
+}
+.auth_top_panel-submenu_inner{
+	border: 1px solid #DAE1EB;
+	border-top: none;
+	padding-bottom: 10px;
+}
+.auth_top_panel-subitem{
+	clear: both;
+	margin: 5px 20px;
+}
+.auth_top_panel-separator{
+	border-left: 1px solid #4c4a49;
+    border-right: 1px solid #211f1f;
+	float: left;
+	height: 40px;
+}

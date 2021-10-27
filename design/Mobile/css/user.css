@@ -1,0 +1,221 @@
+/* Start*/
+#personalInfo {
+	overflow: hidden;
+	clear: both;
+}
+
+#personalInfo input[type="checkbox"] {
+	height: 15px;
+	width: 15px;
+}
+
+#mainProfile ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+#mainProfile .profileTable {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+#mainProfile .left .heading {
+	font-size: 18px;
+	color: #fff;
+	background-color: #4192D9;
+	display: block;
+	line-height: 40px;
+	height: 40px;
+	padding-left: 18px;
+	margin-bottom: 24px;
+}
+
+#mainProfile .profileSettings .heading {
+	font-size: 16px;
+	color: #4192d9;
+	background: none;
+	margin: 0;
+	padding: 0;
+}
+
+#mainProfile .profileSettings {
+}
+
+#mainProfile .profileSettings li:first-child {
+	margin-right: 4%;
+}
+
+#mainProfile .profileSettings li {
+	float: left;
+	width: 100%;
+	min-width: 294px;
+}
+
+#mainProfile .profileSettings input[type="text"] {
+	padding: 0 5px;
+	width: 100%;
+	min-width: 180px;
+	height: 30px;
+	border: 1px solid #c0c0c0;
+	margin-bottom: 8px;
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #fbfbfb 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#fbfbfb));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#fbfbfb 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fbfbfb',GradientType=0 );
+}
+
+#mainProfile .profileSettings input[type="text"]:focus {
+	border: 1px solid #888;
+}
+
+#mainProfile .profileSettings input[type="password"] {
+	padding: 0 5px;
+	width: 100%;
+	min-width: 180px;
+	height: 30px;
+	border: 1px solid #c0c0c0;
+	margin-bottom: 8px;
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #fbfbfb 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#fbfbfb));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#fbfbfb 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fbfbfb',GradientType=0 );
+}
+
+#mainProfile .profileSettings input[type="password"]:focus {
+	border: 1px solid #888;
+}
+
+#mainProfile .profileSettings textarea {
+	padding: 5px 5px;
+	width: 100%;
+	min-width: 180px;
+	height: 80px;
+	border: 1px solid #c0c0c0;
+	margin-bottom: 8px;
+	resize: none;
+	background: #ffffff;
+	background: -moz-linear-gradient(top,  #ffffff 0%, #fbfbfb 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#fbfbfb));
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%);
+	background: -o-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%);
+	background: -ms-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%);
+	background: linear-gradient(to bottom,  #ffffff 0%,#fbfbfb 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fbfbfb',GradientType=0 );
+}
+
+#mainProfile .profileSettings textarea:focus {
+	border: 1px solid #888;
+}
+
+#mainProfile .profileSettings label {
+	font-size: 14px;
+	display: block;
+	margin-bottom: 8px;
+}
+
+#mainProfile .profileSettings .submit {
+	background-color: #0074d8;
+	display: block;
+	color: #fff;
+	font-size: 14px;
+	line-height: 40px;
+	height: 40px;
+	text-decoration: none;
+	border: none;
+	width: 212px;
+	text-align: center;
+	margin-top: 8px;
+}
+
+#mainProfile .profileSettings .submit:hover {
+	background-color: #016FCE;
+}
+
+#mainProfile .profileSettings .submit:active {
+	position: relative;
+	top: 1px;
+}
+
+#mainProfile .right {
+	width: 290px;
+	vertical-align: top;
+}
+
+#mainProfile .right .wrap {
+	border: 1px solid #c0c0c0;
+}
+
+#mainProfile .right .heading {
+	background-color: #4192D9;
+	height: 40px;
+	line-height: 40px;
+	display: block;
+	font-size: 16px;
+	color: #fff;
+	padding-left: 18px;
+}
+
+#mainProfile .right ul li:first-child {
+	border: 0;
+}
+
+#mainProfile .right ul li {
+	border-top: 1px solid #c0c0c0;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 18px;
+}
+
+#mainProfile .right ul li a {
+	color: #505050;
+	display: block;
+	text-decoration: none;
+}
+
+#mainProfile .right ul li a:hover {
+	color: #4192d9;
+}
+
+#mainProfile .right ul li .cnt {
+	background: #4192d9;
+	padding: 4px 6px;
+	text-align: center;
+	color: #fff;
+	border-radius: 2px;
+}
+
+#mainProfile .bx_my_order_switch a {
+	height: 35px;
+	line-height: 35px;
+	background-color: #4192D9;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	display: inline-block;
+	padding: 0px 12px;
+}
+
+#mainProfile .bx_my_order_switch a:hover {
+	background: #0074d9;
+}
+
+#mainProfile .bx_my_order_switch a:active {
+	position: relative;
+	top: 1px;
+}
+
+@media (min-width: 768px) {
+	#mainProfile .profileSettings li {
+		width: 48%;
+	}
+}
+/* End */

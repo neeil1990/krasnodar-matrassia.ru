@@ -1,0 +1,308 @@
+.super_banners-pictures
+{
+	height: 654px;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+.super_banners-pictures-pic
+{
+	background-position: 50% 0;
+	height: 654px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.super_banners_btns-buttons
+{
+	position: relative;
+}
+.super_banners_btns-item
+{
+	display: block;
+	height: 464px;
+	width: 100%;
+	z-index: 20;
+}
+/*arrows (prev/next*/
+A.super_banners_btns-arrow_prev.multimage_icons, A.super_banners_btns-arrow_next.multimage_icons
+{
+	display: block;
+	height: 30px;
+	filter: progid: DXImageTransform.Microsoft.Alpha(opacity=0);
+	-moz-opacity: 0;
+	-khtml-opacity: 0;
+	opacity: 0;
+	position: absolute;
+	top: 43%;
+	-webkit-transition: all .2s ease-in-out 0s;
+	-moz-transition: all .2s ease-in-out 0s;
+	-o-transition: all .2s ease-in-out 0s;
+	width: 24px;
+}
+.super_banners_btns-buttons:hover .super_banners_btns-arrow_prev, .super_banners_btns-buttons:hover .super_banners_btns-arrow_next
+{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+	-moz-opacity: .5;
+	-khtml-opacity: .5;
+	opacity: .5;
+}
+.super_banners_btns-arrow_prev
+{
+	background-position: 0 -223px;
+	left: 15px;
+}
+.super_banners_btns-arrow_next
+{
+	background-position: 0 -191px;
+	right: 15px;
+}
+.super_banners_btns-buttons .super_banners_btns-arrow_prev:hover, .super_banners_btns-buttons .super_banners_btns-arrow_next:hover
+{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+/*pointers*/
+.super_banners_btns-pointers{
+	left: 15px;
+	position: absolute;
+	top: 60%;
+}
+.activelife .super_banners_btns-pointer,
+.activelife .super_banners_btns-pointer:hover{
+	color: #C9C9C9;
+	font-size: 30px;
+	text-decoration: none;
+}
+.activelife .super_banners_btns-pointer:hover{
+	color: #1E85DA;
+}
+.activelife .super_banners_btns-pointer.selected{
+	color: #F8AD2D;
+}
+.sliding .super_banners_btns-pointer,
+.sliding .super_banners_btns-arrow_prev,
+.sliding .super_banners_btns-arrow_next{
+	cursor: default;
+}
+/*tabs*/
+.maintabs
+{
+	position: relative;
+	margin-top: 18px;
+}
+.maintabs .personal-tabsheader-tablink
+{
+	text-align: center;
+}
+.maintabs .personal-tabsheader A.incative SPAN.tabbg-center
+{
+	padding: 5px 35px;
+}
+.maintabs .personal-tabsheader A.select SPAN.tabbg-center
+{
+	padding: 4px 34px;
+}
+.mainfullline
+{
+	background-color: #E0E0E0;
+	height: 2px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+.personal-tabscontent.second_tabs
+{
+	margin-top: 30px;
+}
+/*banners*/
+.main_adv_banners
+{
+	float: left;
+	margin-bottom: 40px;
+}
+.main_adv_banners .main_adv_banners-banner
+{
+	float: left;
+	margin-right: 8px;
+}
+/*tabs*/
+.persoanlise_tabs
+{
+	float: left;
+	width: 975px;
+}
+.persoanlise_tabs .tabs_title
+{
+	float: left;
+	font-size: 13px;
+	margin: 7px 10px 0 0;
+}
+/*bot banners*/
+.main_bot_banners
+{
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.main_bot_banners .main_bot_banners-banner
+{
+	float: left;
+	margin-right: 5px;
+}
+/*slider[brands] - items*/
+.brands_slider
+{
+	margin: 10px 0;
+}
+.brands_slider .main_slider-slider
+{
+	height: 105px;
+	margin: 0 60px;
+}
+.brands_slider .main_slider-item
+{
+	float: left;
+	height: 105px;
+	margin-right: 12px;
+	position: relative;
+	text-align: center;
+	width: 180px;
+}
+.brands_slider .main_slider-item .main_slider-item-image
+{
+	display: table-cell;
+	height: 105px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+	width: 170px;
+	font-size: 20px;
+	font-weight: bold;
+}
+A.main_slider-item
+{
+	text-decoration: none;
+}
+.brands_slider .main_slider-item .main_slider-item-image IMG
+{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+	max-height: 70px;
+	max-width: 160px;
+	-moz-opacity: .8;
+	-khtml-opacity: .8;
+	opacity: .8;
+}
+.brands_slider .main_slider-item:hover .main_slider-item-image IMG
+{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+.brands_slider .main_slider-item .main_slider-item-name
+{
+	height: 30px;
+	overflow: hidden;
+	width: 170px;
+}
+/*slider - items*/
+.sections_slider
+{
+	margin: 10px 0;
+}
+.sections_slider .main_slider-slider
+{
+	height: 105px;
+	margin: 0 60px;
+}
+.sections_slider .main_slider-item
+{
+	float: left;
+	height: 105px;
+	margin-right: 12px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	width: 116px;
+}
+.sections_slider .main_slider-item .main_slider-item-image
+{
+	height: 50px;
+	margin-bottom: 10px;
+	width: 117px;
+}
+.sections_slider .main_slider-item .main_slider-item-image IMG
+{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+	max-height: 50px;
+	max-width: 70px;
+	-moz-opacity: .8;
+	-khtml-opacity: .8;
+	opacity: .8;
+}
+.sections_slider .main_slider-item:hover .main_slider-item-image IMG
+{
+	filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
+.newsmain{
+	border: 1px solid #C9C9C9;
+	-khtml-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	float: right;
+	width: 266px;
+}
+.newsmain .newsmain_inner{
+	padding: 18px 18px 0;
+}
+.newsmain .newsmain-item{
+	height: 250px;
+	margin-bottom: 20px;
+}
+.newsmain .newsmain-item-pic{
+	height: 153px;
+	margin-bottom: 8px;
+	width: 232px;
+}
+.newsmain .newsmain-item-pic a{
+text-decoration: none;
+}
+.newsmain .newsmain-item-pic img{
+	max-height: 153px;
+	max-width: 232px;
+}
+.newsmain .newsmain-item-iblock_name{
+	background-color: #086bbc;
+	float: left;
+	margin-bottom: 5px;
+	padding: 1px 3px;
+	color:#ffffff;
+}
+.newsmain .newsmain-item-iblock_name a{
+	color: #FFF;
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.newsmain .newsmain-item-iblock_name a:hover{
+	color: #FFF;
+	text-decoration: none;
+}
+.newsmain .newsmain-item-name{
+	height: 32px;
+	overflow: hidden;
+	width: 230px;
+}
+.newsmain .newsmain-item-name a{
+	font-size: 13px;
+	text-decoration: none;
+}

@@ -1,0 +1,40 @@
+.footer .infootercatalog{
+	margin-bottom: 15px;
+}
+.footer .infootercatalog-aroundlevel{
+	float: left;
+	margin-right: 10px;
+	width: 170px;
+}
+.footer .infootercatalog .infootercatalog-item{
+	margin: 7px 0;
+}
+.footer .infootercatalog-item.depth_level1 a{
+	color: #fff;
+	font-size: 13px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.footer .infootercatalog-item.depth_level1 a:hover,
+.footer .infootercatalog-item.depth_level1 a:hover span{
+	text-decoration: underline;
+}
+.footer .infootercatalog-item.depth_level2 a{
+	color: #fff;
+	font-size: 12px;
+	text-decoration: none;
+}
+.footer .infootercatalog-item.depth_level2 a:hover,
+.footer .infootercatalog-item.depth_level2 a:hover span{
+	text-decoration: underline;
+}
+.footer .infootercatalog.ellipsisnames .infootercatalog-item.depth_level1 a span,
+.footer .infootercatalog.ellipsisnames .infootercatalog-item.depth_level2 a span{
+	display: inline-block;
+	//display: inline;
+	max-width: 145px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	//zoom: 1;
+}

@@ -1,0 +1,77 @@
+#cat_compare_fixed{
+	position:fixed;
+	top:150px;
+	right:0px;
+	z-index:300;
+}
+#cat_compare_fixed .cat_compare_fixed{
+	width:102px;
+	height:107px;
+	background:url('../images/compare_bg.png') 0px 0px no-repeat;
+}
+#cat_compare_fixed .cat_compare_fixed-list{
+	float:right;
+	padding-top:25px;
+	padding-right:12px;
+}
+#cat_compare_fixed .cat_compare_fixed-item,
+#cat_compare_fixed .cat_compare_fixed-empty_item{
+	width:51px;
+	height:51px;
+	margin-top:9px;
+	background-color:white;
+}
+#cat_compare_fixed .cat_compare_fixed-item a img,
+#cat_compare_fixed .cat_compare_fixed-empty_item a img{
+	margin:1px;
+}
+#cat_compare_fixed .cat_compare_fixed-item a{
+	position:relative;
+	display:block;
+	text-align:center;
+}
+#cat_compare_fixed .cat_compare_fixed-item a:hover img{
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+	-moz-opacity:0.3;
+	-khtml-opacity:0.3;
+	opacity:0.3;
+}
+#cat_compare_fixed .cat_compare_fixed-item{
+	border:1px solid #d2d2d2;
+}
+#cat_compare_fixed .cat_compare_fixed-empty_item{
+	border:1px dashed #d2d2d2;
+}
+#cat_compare_fixed .cat_compare_fixed-item_close{
+	position:absolute;
+	top:-5px;
+	right:-5px;
+	display:block;
+	width:9px;
+	height:9px;
+	background:url('../images/close.png') 0px 0px no-repeat;
+}
+#cat_compare_fixed .compare_btn_submit{
+	width:81px;
+	height:31px;
+	float:right;
+	margin-top:10px;
+	cursor:pointer;
+	border:0px;
+	background-image:url('../images/compare_btn.png');
+	background-repeat:no-repeat;
+	background-position:0px 0px;
+}
+#cat_compare_fixed .compare_btn_submit:hover{
+	background-position:-81px 0px;
+}
+
+
+
+
+
+
+
+
+
+

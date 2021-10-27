@@ -1,0 +1,64 @@
+/* Start*/
+.bx-google-map {color: black;}
+.mfeedback {}
+.mf-name, .mf-email, .mf-captcha, .mf-message {padding-bottom:0.4em;}
+.mf-req {color:red;}
+.mf-ok-text {color:green; font-weight:bold; padding-bottom: 1em;}
+
+#callback {
+	max-width: 540px;
+}
+
+#callback input[type="text"] {
+	height: 36px;
+	line-height: 36px;
+}
+
+#callback input[type="text"],
+#callback textarea {
+	border: 1px solid #ECECEC;
+	background-color: #FFF;
+	margin-bottom: 12px;
+	padding: 0px 4px;
+	font-size: 16px;
+	display: block;
+	width: 100%;
+	display: block;
+}
+
+#callback input[type="text"]:focus,
+#callback textarea:focus {
+	border-color: #ccc;
+}
+
+#callback input[type="submit"] {
+	background-color: #0074D9;
+	border: 1px solid #0074D9;
+	text-align: center;
+	font-size: 16px;
+	padding: 12px 0px;
+	display: block;
+	color: #FFF;
+	width: 100%;
+	max-width: 360px;
+	float: right;
+	position: relative;
+}
+
+#callback input[type="submit"]:active {
+	top: 1px;
+	border-color: #016FCE;
+	background-color: #016FCE;
+}
+
+#newReview input {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e4e4e4;
+    display: inline-block;
+    height: 35px;
+    margin-bottom: 12px;
+    padding: 4px;
+    vertical-align: top;
+    width: 100%;
+}
+/* End */

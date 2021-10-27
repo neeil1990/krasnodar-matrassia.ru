@@ -1,0 +1,112 @@
+/* Start*/
+.bx-auth-table td{
+	padding-right:4px;
+}
+
+#register {
+	position: relative;
+	max-width: 480px;	
+	clear: both;
+	width: 100%;
+	margin: auto;
+}
+
+#register form {
+	width: 100%;
+}
+
+#register h1 {
+	text-align: center;
+}
+
+#register input[type="text"],
+#register input[type="password"] {
+	border: 1px solid #ECECEC;
+	background-color: #FFF;
+	padding: 0px 6px;
+	font-size: 16px;
+	width: 100%;
+	display: block;
+	height: 36px;
+	line-height: 36px;
+}
+
+#register input[type="text"]:focus,
+#register input[type="password"]:focus {
+	border-color: #ccc;
+}
+
+#register  .bx-registration-table {
+	margin-bottom: 18px;
+	width: 100%;
+	table-layout: fixed;
+}
+
+#register  .bx-registration-table td {
+	padding: 4px 4px;
+}
+
+#register  .bx-registration-table td:first-child {
+	width: 38%;
+}
+
+#register input[type="submit"] {
+	background-color: #0074D9;
+	border: 1px solid #0074D9;
+	text-align: center;
+	font-size: 16px;
+	padding: 12px 0px;
+	display: block;
+	color: #FFF;
+	width: 100%;
+	max-width: 360px;
+	float: right;
+	position: relative;
+}
+
+#register input[type="submit"]:active {
+	top: 1px;
+	border-color: #016FCE;
+	background-color: #016FCE;
+}
+
+#USER_REMEMBER + label {
+	font-size: 13px;
+	vertical-align: top;
+	line-height: 16px;
+	display: inline-block;
+	margin-left: 6px;
+}
+
+#register .electroCheck {
+	width: 15px;
+	height: 15px;
+	float:left;
+}
+
+#pseudoTabs {
+	position: relative;
+	clear: both;
+}
+
+#pseudoTabs .tabSelector {
+	display: block;
+	float: left;
+	width: 50%;
+	text-align: center;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 8px 0;
+	margin: 0px 0px 12px;
+	border: 1px solid #ccc;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#pseudoTabs .tabSelector.inactive {
+	background-color: #ededed;
+	border-right: 0;
+	color: #636363;
+}
+/* End */

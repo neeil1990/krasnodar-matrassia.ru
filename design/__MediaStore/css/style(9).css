@@ -1,0 +1,24 @@
+.auth_form .user_password{
+	position: relative;
+}
+.auth_form .user_password a{
+	right: 15px;
+	position: absolute;
+	top: 13px;
+	text-decoration: none;
+}
+.auth_form .user_password a:hover{
+	text-decoration: underline;
+}
+.auth_form .submit{
+	float: left;
+	width: 145px;
+}
+.auth_form .remember{
+	float: right;
+	margin-top: 9px;
+}
+.auth_form .remember label:hover{
+	color: #009DBA;
+	text-decoration: underline;
+}

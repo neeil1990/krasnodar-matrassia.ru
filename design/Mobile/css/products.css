@@ -1,0 +1,444 @@
+/* Start*/
+#secLevel2 > ul {
+	margin: 24px 0px;
+	padding-left: 35px;
+}
+
+#secLevel2 > ul > li {
+	margin-bottom: 12px;
+	padding-right: 12px;
+}
+
+#secLevel2 > ul > li > a {
+	font: normal normal 14px "bender" , arial , sans-serif;
+	color: #c6c5c6;
+	text-decoration: none;
+}
+
+#secLevel2 > ul > li > a:active {
+	position: relative;
+	top: 1px;
+}
+
+#secLevel2 > ul > li > a:hover {
+	color: #4192d9;
+}
+
+#secLevel2 > ul > li > a.selected {
+	color: #4192d9;
+}
+
+#secLevel2 > ul > li > a.selected:hover {
+	color: #0074d9;
+}
+
+#catalog .productList {
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+#catalog .productList li {
+	margin-right: 24px;
+	margin-bottom: 24px;
+	border: 1px solid #E1E1E1;
+	-o-transition: all 0.1s ease;
+	-moz-transition: all 0.1s ease;
+	-webkit-transition: all 0.1s ease;
+	transition: all 0.1s ease;
+}
+
+#catalog .productList .wrap {
+	width: 100%;
+	border: 0;
+}
+
+#catalog .productList li:hover{
+	border: 1px solid #C9C9C9;
+}
+
+#catalogLine {
+	font: normal normal 13px "bender" , arial , sans-serif;
+	color: #fff;
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: 24px;
+	position: relative;
+	border: 1px solid #f1f1f1;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#catalogLine .left {
+	float: left;
+}
+
+#catalogLine .right {
+	float: right;
+	padding-right: 12px;
+}
+
+#catalogLine .left span {
+	padding-right: 12px;
+	margin-left: 8px;
+	color: #000;
+}
+
+#catalogLine .left .count {
+	margin-left: 12px;
+}
+
+#catalogLine .left a {
+	border: 1px solid #999;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	color: #999;
+	padding: 0px 8px;
+	vertical-align: middle;
+}
+
+#catalogLine .left a:hover {
+	color: #777;
+	border: 1px solid #777;
+}
+
+#catalogLine .left a.active {
+	background-color: #0074d9;
+	border: 1px solid #0074d9;
+	color: #fff;
+}
+
+#catalogLine .left a:active {
+	position: relative;
+	top: 1px;
+}
+
+#catalogLine #on {
+	width: 24px;
+	height: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #4192d9;
+}
+
+#catalogLine #on a {
+	height: 15px;
+	display: block;
+	border: 0px;
+}
+
+#catalogLine #on .asc {
+	background: url("../images/arrows.png") 0 0 no-repeat transparent;
+}
+
+#catalogLine #on .asc.active {
+	background: url("../images/arrows.png") -24px 0 no-repeat #0074d9;
+}
+
+#catalogLine #on .desc {
+	background: url("../images/arrows.png") 0px -15px no-repeat transparent;
+}
+
+#catalogLine #on .desc.active {
+	background: url("../images/arrows.png") -24px -15px no-repeat #0074d9;
+}
+
+#catalogLine .right a {
+	height: 30px;
+	line-height: 30px;
+	width: 30px;
+	display: inline-block;
+	vertical-align: middle;
+	border: 1px solid #C9C9C9;
+}
+
+#catalogLine .right .type1 {
+	background: url(../images/catalogView.png) 0 0 no-repeat transparent;
+}
+
+#catalogLine .right .type1:hover {
+	background: url(../images/catalogView.png) -30px 0 no-repeat transparent;
+}
+
+#catalogLine .right .type1.active {
+	background: url(../images/catalogView.png) -60px 0 no-repeat transparent;
+}
+
+#catalogLine .right .type2 {
+	background: url(../images/catalogView.png) 0 -30px no-repeat transparent;
+}
+
+#catalogLine .right .type2:hover {
+	background: url(../images/catalogView.png) -30px -30px no-repeat transparent;
+}
+
+#catalogLine .right .type2.active {
+	background: url(../images/catalogView.png) -60px -30px no-repeat transparent;
+}
+
+#catalogLine .right .type3 {
+	background: url(../images/catalogView.png) 0 -60px no-repeat transparent;
+}
+
+#catalogLine .right .type3:hover {
+	background: url(../images/catalogView.png) -30px -60px no-repeat transparent;
+}
+
+#catalogLine .right .type3.active {
+	background: url(../images/catalogView.png) -60px -60px no-repeat transparent;
+}
+
+#catalogLines .section {
+	border: 1px solid #f1f1f1;
+	margin-bottom: 24px;
+	-o-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-webkit-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	border-radius: 2px;
+}
+
+#catalogLines .section:hover {
+	border: 1px solid #c9c9c9;
+}
+
+#catalogLines .item {
+	width: 100%;
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+#catalogLines .item td {
+	position: relative;
+	padding: 12px 0px;
+	vertical-align: top;
+}
+
+#catalogLines .item .picture,
+#catalogLines .item .name {
+	background: #ffffff;
+ /* Old browsers */
+	background: -moz-linear-gradient(top,  #ffffff 0%, #fbfbfb 100%);
+ /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#fbfbfb));
+ /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%);
+ /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%);
+ /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #ffffff 0%,#fbfbfb 100%);
+ /* IE10+ */
+	background: linear-gradient(to bottom,  #ffffff 0%,#fbfbfb 100%);
+ /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fbfbfb',GradientType=0 );
+ /* IE6-9 */;
+}
+
+#catalogLines .item .picture {
+	width: 40%;
+	text-align: center;
+	min-width: 350px;
+	vertical-align: middle;
+}
+
+#catalogLines .item .tools {
+	width: 220px;
+	text-align: left;
+}
+
+#catalogLines .elementName {
+	font: normal normal 20px "bender" , arial , sans-serif;
+	color: #000;
+	display: inline-block;
+	text-decoration: underline;
+	margin-bottom: 12px;
+	white-space: pre-wrap;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-all;
+	padding-right: 12px;
+}
+
+#catalogLines .elementName:hover {
+	color: #0074d9;
+}
+
+#catalogLines .elementName:visited {
+	color: #888;
+}
+
+#catalogLines .item .picture a {
+	display: inline-block;
+	max-width: 100%;
+}
+
+#catalogLines .item .picture a:active {
+	position: relative;
+	top: 1px;
+}
+
+#catalogLines .item .picture img {
+	max-width: 80%;
+	height: auto;
+	max-height: 230px;
+	text-align: center;
+}
+
+#catalogLines .item .marker {
+	font: normal normal 12px "bender" , arial , sans-serif;
+	position: absolute;
+	top: 4px;
+	left: -4px;
+	background: url(../images/marker.png) 0 0 repeat transparent;
+	color: #fff;
+	padding: 3px 4px;
+	line-height: 16px;
+	z-index: 10;
+}
+
+#catalogLines .item .name {
+	width: 100%;
+	padding: 12px 0;
+}
+
+#catalogLines .item .name .infoBox {
+	clear: both;
+	overflow: hidden;
+}
+
+#catalogLines .item .name .article {
+	float: left;
+	display: block;
+	padding: 5px 12px;
+	background-color: #F1F1F1;
+	color: #9D9D9D;
+	margin-left: 100px;
+}
+
+#catalogLines .item .name .label {
+	float: left;
+	margin-right: 12px;
+	line-height: 27px;
+}
+
+#catalogLines .item .name .rating {
+	position: relative;
+	right: 0px;
+	top: 5px;
+	z-index: 10;
+	width: 79px;
+	float: left;
+}
+
+#catalogLines .item .name .rating i {
+	background: url(../images/rating.png) repeat 0 0px transparent;
+	height: 15px;
+	width: 79px;
+	position: absolute;
+	display: block;
+	left: 0px;
+	top: 0px;
+}
+
+#catalogLines .item .name .rating i.m {
+	background: url(../images/rating.png) repeat 0 -14px transparent;
+	width: 0px;
+	z-index: 10;
+}
+
+#catalogLines .item .name .prop {
+	clear: both;
+	table-layout: fixed;
+	width: 80%;
+	margin-top: 8px;
+	border-collapse: collapse;
+}
+
+#catalogLines .item .name .prop td {
+	padding: 2px 0px;
+}
+
+#catalogLines .item .name .prop td:first-child {
+	padding-right: 8px;
+	width: 60%;
+}
+
+#catalogLines .item .tools {
+	border-left: 1px solid #f1f1f1;
+}
+
+#catalogLines .item .tools .wrap {
+	width: 222px;
+}
+
+#catalogLines .item .tools .wrap ul {
+	margin-left: 26px;
+}
+
+#catalogLines .item .tools .wrap li {
+	margin-bottom: 12px;
+	text-align: left;
+}
+
+#catalogLines .item .tools .wrap img {
+	vertical-align: middle;
+}
+
+#catalogLines .item .tools .addCart, 
+#catalogLines .item .tools .addSku {
+	background: #0074d8;
+	font: normal normal 14px "bender" , arial , sans-serif;
+	line-height: 40px;
+	display: inline-block;
+	height: 40px;
+	color: #fff;
+	width: 168px;
+	text-decoration: none;
+	text-align: center;
+	float: none;
+	margin: 0;
+}
+
+#catalogLines .item .tools .addCart:hover,
+#catalogLines .item .tools .addSku:hover {
+	background: #016fce;
+}
+
+#catalogLines .item .tools .addCompare {
+	color: #7F7F7F;
+	font: 14px "bender", "arial", sans-serif;
+	text-decoration: none;
+}
+
+#catalogLines .item .tools .addCompare:hover {
+	color: #4192d9;
+}
+
+#catalogLines .item .tools .addCompare:active {
+	position: relative;
+	top: 1px;
+}
+
+#catalogLines .item .tools .addCompare img {
+	padding-right: 4px;
+}
+
+#catalogLines .item .tools .price {
+	color: #000;
+	font-size: 24px;
+	margin: 12px 0px;
+	position: relative;
+}
+
+#catalogLines .item .tools .price s {
+	color: #ACACAC;
+	display: block;
+	font-size: 14px;
+	position: absolute;
+	right: 12px;
+	top: -16px;
+}
+/* End */

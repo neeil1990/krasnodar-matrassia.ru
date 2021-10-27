@@ -1,0 +1,495 @@
+/* Start*/
+#personalCart .product td:first-child {
+	/*width: 140px;*/
+}
+
+#personalCart .delete {
+	position: absolute;
+	display: block;
+	top: 15px;
+/*	left: 100%;
+	margin-left: -36px;*/
+	left: 0;
+	width: 30px;
+	height: 30px;
+	background: url(../images/delMobile.png) top center no-repeat;
+}
+
+#personalCart .delete:active {
+	top: 16px;
+}
+
+#personalCart .loaderBlue {
+	background-image: url(../images/loaderBlue.gif);
+	background-position: 50% 50%;
+}
+
+#personalCart .product {
+	position: relative;
+}
+
+#personalCart .product .name {
+	padding-left: 36px;
+}
+
+#order ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+#personalCart .priceNow i {
+	top: 18%;
+}
+
+#order select,
+#order textarea,
+#order input[type="text"],
+#order input[type="email"],
+#order input[type="tel"] {
+	border: 1px solid #ececec;
+	background-color: #f9f9f9;
+	margin-bottom: 14px;
+	line-height: 36px;
+	padding: 0px 4px;
+	font-size: 14px;
+	display: block;
+	height: 36px;
+	width: 100%;
+}
+
+#order textarea.field {
+	height: auto;
+	line-height: 21px;
+}
+
+#order .field:focus {
+	border-color: #c2c2c2;
+}
+
+#order .field.error {
+	border-color: #ff0000;
+}
+
+#order select {
+    -webkit-appearance: listbox;
+}
+
+#sum {
+	margin: 12px 0px;
+}
+
+#sum, #orderSum {
+	font-size: 16px;
+	line-height: 28px;
+}
+
+#total,
+#orderTotal {
+	font-size: 18px;
+}
+
+#allSum,
+#allOrderSum {
+	font-weight: bold;
+}
+
+#order {
+	position: relative;
+}
+
+#order .notice {
+	border-bottom: 1px solid #ececec;
+	margin-bottom: 12px;
+	text-align: left;
+	padding: 12px 8px;
+	font-size: 16px;
+	display: block;
+}
+
+#orderSum {
+	border-bottom: 1px solid #ececec;
+	border-top: 1px solid #ececec;
+	padding: 8px 0;
+	margin-bottom: 12px;
+	margin-top: 12px;
+}
+
+#orderMake {
+	background-color: #0074d9;
+	border: 1px solid #0074d9;
+	text-align: center;
+	font-size: 16px;
+	padding: 0;
+	display: block;
+	color: #fff;
+	width: 100%;
+	max-width: 360px;
+	float: right;
+	height: 42px;
+	line-height: 42px;
+}
+
+#orderMake:hover {
+	background-color: #016FCE;
+}
+
+#orderOrde {
+	background-color: #0074d9;
+	border: 1px solid #0074d9;
+	text-align: center;
+	font-size: 16px;
+	padding: 0;
+	display: block;
+	color: #fff;
+	width: 100%;
+	max-width: 360px;
+	float: none;
+	height: 42px;
+	line-height: 42px;
+}
+
+#orderOrde:hover {
+	background-color: #016FCE;
+}
+
+#orderMake span {
+	background-image: url('../images/orderLoad.gif');
+	vertical-align: middle;
+	display: inline-block;
+	height: 26px;
+	width: 26px;
+	margin-right: 6px;
+}
+
+#orderSuccess {
+	display: none;
+}
+
+#orderSuccess a:hover,
+#orderSuccess a:active {
+	color: #0074d9;
+}
+
+#allDevilerySum .rouble i {
+	top: 25%;
+}
+
+#allClear {
+	position: absolute;
+	top: 45px;
+	right: 12px;
+	display: block;
+	color: #888;
+	background-color: #F2F2F2;
+	padding: 4px 6px;
+	font-size: 12px;
+}
+
+#allClear:active {
+	background-color: #EDEDED;
+	top: 46px;
+}
+
+.userProp li {
+	position: relative;
+}
+
+.locDesk {
+	position: absolute;
+	background: #fff;
+	width: 100%;
+	border-top: 1px solid #ccc;
+}
+
+.locDesk li {
+	padding: 4px 8px;
+	display: block;
+	border: solid #ccc;
+	border-width: 0px 1px 1px;
+	cursor: pointer;
+}
+
+.locDesk li:hover {
+	background-color: #f5f5f5;
+}
+
+.orderProps {
+	display: table;
+	width: 100%;
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+.orderFrm {
+	position: relative;
+	overflow: hidden;
+	clear: both;
+}
+
+.orderFrm label {
+	line-height: 18px;
+	font-size: 12px;
+	display: block;
+	color: #acacac;
+}
+
+.label {
+	display: inline-block;
+	font-size: 16px !important;
+	padding: 4px 0;
+	margin: 0;
+}
+
+.orderProps {
+	display: none;
+}
+
+.orderProps.active {
+	display: block;
+}
+
+.gray{
+	background: #f2f2f2 !important;
+	color: #000000 !important;
+}
+
+.orderProps select:focus,
+.orderProps textarea:focus,
+.orderProps input:focus{
+	border:1px solid #ccc;
+}
+
+
+.basketQty {
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 8px;
+}
+
+.basketQty .qty {
+	border: 1px solid #F1F1F1;
+	text-align: center;
+	font-size: 12px;
+	height: 31px;
+	width: 40px;
+	float: left;
+}
+
+.basketQty .minus,
+.basketQty .plus {
+	background: url('../images/plusMinus.png') no-repeat transparent;
+	display: block;
+	float: left;
+	height: 31px;
+	width: 31px;
+	border: none;
+	cursor: pointer;
+}
+
+.basketQty .minus {background-position: 0 0;}
+.basketQty .minus:hover {background-position: -31px 0;}
+.basketQty .minus:active {background-position: -62px 0;}
+
+.basketQty .plus {background-position: 0 -31px;}
+.basketQty .plus:hover {background-position: -31px -31px;}
+.basketQty .plus:active {background-position: -62px -31px;}
+
+@media (min-width: 480px) { 
+	#personalCart td {
+		position: relative;
+	}
+
+	#personalCart .delete {
+		top: 0;
+		left: 0;
+		margin: 0;
+	}
+
+	#personalCart .delete:active {
+		top: 1px;
+	}
+}
+
+.wait {
+	pointer-events: none;
+	position: relative;
+}
+
+.wait > * {
+	opacity: .4;
+	-webkit-transition: opacity .3s ease-in-out;
+	-moz-transition: opacity .3s ease-in-out;
+	-o-transition: opacity .3s ease-in-out;
+	transition: opacity .3s ease-in-out;
+}
+
+.coupon_code{
+background-color: #f9f9f9;
+    border: 1px solid #ececec;
+    display: block;
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 14px;
+    padding: 0 4px;
+    max-width: 250px;
+	width: 100%;
+}
+
+#cupon_button {
+	background-color: #0074d9;
+	border: 1px solid #0074d9;
+	text-align: center;
+	font-size: 16px;
+	padding: 0;
+	display: block;
+	color: #fff;
+	width: 100%;
+	max-width: 250px;
+	float: none;
+	height: 42px;
+	line-height: 42px;
+	cursor: pointer;
+}
+
+#cupon_button:hover {
+	background-color: #016FCE;
+}
+
+/* Сообщение с ошибкой */
+.message_error{
+	clear: both;
+	height: 18px;
+	padding: 10px 20px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+	overflow: hidden;
+	color: red;
+	background-color: #ffcaca;
+	border: 1px dotted #ff4545;
+}
+
+/* @end */
+
+/* @group Корзина */
+#purchases{
+	width: 100%;
+}
+#purchases tr{
+	border-top: 1px solid #d5d5d5;
+	height: 70px;
+}
+#purchases th{
+	vertical-align: top;
+	padding-top: 10px;
+	font-size: 18px;
+	font-weight: normal;
+}
+#purchases .image{
+	width: 50px;
+	text-align: center;
+}
+#purchases .image a{
+	border: 1px solid #e0e0e0;
+	background-color: #ffffff;
+	margin: 0 7px 7px 0;
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+}
+
+#purchases .name{
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: left;
+}
+#purchases td.name{
+	font-size: 14px;
+}
+#purchases td .download_attachment{
+	white-space: nowrap;
+	color: #3b8500;
+	padding: 5px 10px 7px 10px;
+	border-bottom-color: 1px dotted green;
+	background-color: #ccff72;
+	line-height: 30px;
+}
+
+#purchases .price{
+	padding-left: 5px;
+	padding-right: 5px;
+	white-space: nowrap;
+	text-align: right;
+}
+#purchases td.price{
+	font-size: 14px;
+}
+#purchases .remove{
+	padding-left: 15px;
+	text-align: right;
+}
+#purchases .amount{
+	font-size: 14px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#purchases .amount select{
+	font-size:12px;
+}
+
+#purchases .coupon .name{
+	font-size:14px;
+}
+#purchases .coupon .name input.coupon_code{
+	width: 200px;
+}
+#purchases .coupon .name input{
+	font-size:16px;
+}
+
+ul#deliveries{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: #ffffff;
+	border: 1px solid #e0e0e0;
+	padding: 20px 20px 0 20px;
+	list-style: none;
+}
+ul#deliveries li{
+	margin-bottom: 20px;
+}
+ul#deliveries li div.checkbox{
+	float: left;
+}
+ul#deliveries li h3, ul#deliveries li .description{
+	display: block;
+	margin-left: 25px;
+}
+/* @end */
+/* @group Детали заказа */
+table.order_info
+{
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: #f9f9f9;
+}
+table.order_info td
+{
+	padding: 10px;
+	border: 1px dotted #e0e0e0;
+	font-size: 14px;
+}
+.checkout_button
+{
+	padding: 10px 20px 10px 20px;
+	border: 1px solid #51a400;
+	background-color: #d3ffa9;
+	color: #2e5e00;
+	font-size: 14px;
+}
+/* @end */
+	
+/* End */

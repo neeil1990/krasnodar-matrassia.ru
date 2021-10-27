@@ -1,0 +1,30 @@
+ALTER TABLE `s_comments`
+ADD `pluses_text` text COLLATE 'utf8_general_ci' NOT NULL AFTER `name`,
+ADD `minuses_text` text COLLATE 'utf8_general_ci' NOT NULL AFTER `pluses_text`,
+ADD `rating` tinyint(1) NOT NULL,
+ADD `image` varchar(255) COLLATE 'utf8_general_ci' NOT NULL AFTER `rating`;
+
+ALTER TABLE `s_variants`
+ADD `width` int(11) NOT NULL AFTER `name`,
+ADD `height` int(11) NOT NULL AFTER `width`,
+ADD `color` varchar(255) COLLATE 'utf8_general_ci' NOT NULL AFTER `height`;
+
+CREATE TABLE `s_offer` (
+  `id` int(11) NOT NULL,
+  `name` varchar(500) NOT NULL,
+  `url` varchar(255) NOT NULL,
+  `meta_title` varchar(500) NOT NULL,
+  `meta_keywords` varchar(500) NOT NULL,
+  `meta_description` varchar(500) NOT NULL,
+  `annotation` text NOT NULL,
+  `text` longtext NOT NULL,
+  `visible` tinyint(1) NOT NULL DEFAULT '0',
+  `date` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00'
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+ALTER TABLE `s_offer`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `enabled` (`visible`),
+  ADD KEY `url` (`url`);
+
+
+ALTER TABLE `s_categories` ADD `meta_title_product` VARCHAR(255) NOT NULL AFTER `meta_description`;

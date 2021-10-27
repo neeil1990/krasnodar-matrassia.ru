@@ -1,0 +1,36 @@
+.basket_top_panel,
+.basket_top_panel_overlay{
+	height: 35px;
+}
+.basket_top_panel{
+	float: right;
+	margin: 10px 13px 0 0;
+	position: relative;
+}
+.basket_top_panel_overlay{
+	cursor: pointer;
+	left: 0;
+	right: 0;
+	position: absolute;
+	top: 0;
+}
+/* icon */
+.basket_top_panel-icon{
+	background-position: 0 -95px;
+	float: left;
+	height: 34px;
+	padding-right: 10px;
+	width: 40px;
+}
+.basket_top_panel-text{
+	float: left;
+}
+/* title */
+.basket_top_panel-title{
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.basket_top_panel_hovered .basket_top_panel-title{
+	color: #086BBC;
+}

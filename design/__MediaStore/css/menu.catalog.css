@@ -1,0 +1,72 @@
+/* excess item */
+#menu_catalog .li_excess_item{
+	float:right;
+	z-index:310 !important;
+	 margin-right: 186px;
+}
+
+#menu_catalog .asub_excess_item .span_excess_item{
+	padding-right:5px;
+	padding-bottom:3px;
+}
+#menu_catalog .li_excess_item .submenu_lvl1_excess{
+	position:absolute;
+	top:0px;
+	right:-5px;
+	left:auto;
+}
+#menu_catalog .submenu_excess_item_inner{
+	position:relative;
+	top:-1px;
+	right:0px;
+	width:200px;
+	clear:both;
+	padding:15px;
+	line-height:22px;
+	background-color:white;
+	z-index:120;
+	border: 1px solid #EAEFF3;
+	border-top: none;
+	-moz-box-shadow: 2px 2px 2px -1px #b8c8d8, -2px 2px 2px -1px #b8c8d8;
+    -webkit-box-shadow: 2px 2px 2px -1px #b8c8d8, -2px 2px 2px -1px #b8c8d8;
+    box-shadow: 2px 2px 2px -1px #b8c8d8, -2px 2px 2px -1px #b8c8d8;
+	
+}
+#menu_catalog .submenu_lvl1 > .asub_excess_item{
+	float:right;
+	background-color: #FFF;
+	border-top: 1px solid #EAEFF3;
+	border-right: 1px solid #EAEFF3;
+	border-left: 1px solid #EAEFF3;
+	color: #000;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+#menu_catalog .asub_excess_links{
+	display:block;
+	width:200px;
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	color: #009dba;
+    font-size: 14px;
+	 text-decoration: none;
+}
+
+#menu_catalog .asub_excess_links:hover{
+	text-decoration: underline;
+}
+
+/* excess item extestion */
+#menu_catalog .lvl1_hide_this{
+	visibility:hidden;
+	height:0px;
+}
+
+
+
+
+
+

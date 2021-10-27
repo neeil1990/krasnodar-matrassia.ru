@@ -1,0 +1,164 @@
+/* search form */
+.search_in_head{
+	float: right;
+	padding: 8px 13px;
+	position: relative;
+	width: 220px;
+}
+.search_in_head ::-webkit-input-placeholder{color: #8CC2EF;font-size: 13px;font-family: Arial, Helvetica, sans-serif;}
+.search_in_head ::-moz-placeholder{color: #8CC2EF;font-size: 13px;font-family: Arial, Helvetica, sans-serif;}
+.search_in_head :-ms-input-placeholder{color: #8CC2EF;font-size: 13px;font-family: Arial, Helvetica, sans-serif;}
+.search_in_head input:-moz-placeholder{color: #8CC2EF;font-size: 13px;font-family: Arial, Helvetica, sans-serif;}
+#title-search{
+	border: 1px solid #2D7BBC;
+	-moz-transition: .2s ease;
+	-webkit-transition: .2s ease;
+	transition: .2s ease;
+}
+#title-search.focused{
+	background: #FFF;
+	border-color: #0E5794;
+}
+.search_in_head-input{
+	-khtml-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+.search_in_head-search_icon{
+	background-position: 0 -132px;
+	cursor: pointer;
+	height: 14px;
+	margin: 0 5px 0 8px;
+	width: 16px;
+}
+.search_in_head-input .text{
+	background: transparent;
+	border: none;
+	padding: 4px 5px 5px 0;
+	width: 180px;
+}
+div.title-search-result{
+	display: none;
+	margin-top: 14px;
+	overflow: hidden;
+	z-index: 205;
+}
+/* search.title -> results */
+.title-search-result {
+	border-collapse: collapse;
+	border: none;
+	width: 10%;
+}
+.title-search-result a{
+	color: #000;
+	text-decoration: none;
+}
+/* search.title -> results -> catalog */
+.title_search_result-catalog_separator{
+	background-color: #DBDBDB;
+	height: 2px;
+	width: 100%;
+}
+.title_search_result-catalog-item,
+.title_search_result-catalog-item_overlay{
+	height: 68px;
+	width: 228px;
+}
+.title_search_result-catalog-item{
+	background-color: #FFF;
+	position: relative;
+}
+.title_search_result-catalog-item_overlay{
+	cursor: pointer;
+	position: absolute;
+}
+.title_search_result-catalog-item.hovered .title_search_result-catalog-item-name a{
+	text-decoration: underline;
+}
+.title_search_result-catalog-item_inner{
+	padding: 10px;
+}
+.title_search_result-catalog-item-img{
+	float: left;
+	margin-right: 10px;
+	text-align: center;
+	width: 60px;
+}
+.title_search_result-catalog-item-name a{
+	display: block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 12px;
+	overflow: hidden;
+}
+.title_search_result-catalog-item-price .price{
+	float: left;
+	font-size: 15px;
+	padding-right: 5px;
+}
+.title_search_result-catalog-item-price .crossed_price{
+	float: left;
+	font-size: 12px;
+	padding-top: 3px;
+}
+/* search.title -> results -> iblocks */
+.title_search_result-iblock{
+	padding-bottom: 5px;
+	width: 230px;
+}
+.title_search_result-iblock-around_title{
+	height: 15px;
+	position: relative;
+	width: 100%;
+}
+.title_search_result-iblock-title_line{
+	position: absolute;
+	width: 100%;
+	top: 7px;
+	left: 0;
+	right: 0;
+	height: 2px;
+	background-color: #DBDBDB;
+}
+.title_search_result-iblock-title{
+	height: 15px;
+	left: 0;
+	margin: 0 5%;
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+	text-overflow: ellipsis;
+	top: 0;
+	white-space: nowrap;
+	width: 90%;
+}
+.title_search_result-iblock-title span{
+	background-color: #FFF;
+	color: #999;
+	padding: 0 6px;
+}
+.title_search_result-iblock-item{
+	padding: 4px 10px;
+}
+/* search.title -> results -> other */
+.title_search_result-other-item{
+	padding: 4px 10px;
+}
+.title_search_result-other-item a{
+	text-decoration: none;
+}
+.title_search_result-other-item a:hover{
+	text-decoration: underline;
+}
+.around_title_search_result{
+	background-color: #FFF;
+	border: 1px dashed #000;
+	-khtml-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	-moz-box-shadow: 0 0 20px 0 #000;
+	-webkit-box-shadow: 0 0 20px 0 #000;
+	box-shadow: 0 0 20px 0 #000;
+}
