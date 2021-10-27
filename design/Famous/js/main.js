@@ -674,7 +674,7 @@ jQuery(document).ready(function() {
 
                 var button = $(this);
 
-                button.closest('.filter-mobile-wrapper').find('.filter-mobile-content').slideToggle('slow', function(){
+                button.closest('.filter-mobile-wrapper').find('.filter-mobile-content').slideToggle(1000, function(){
                     if(filter.css('display') == 'block'){
                         button.find('span').text('Закрыть фильтр товаров');
                     }else{
